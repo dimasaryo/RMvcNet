@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @job_type.name %>
+</p>
+
+<p>
+  <b>Rate per hour:</b>
+  <%= @job_type.rate_per_hour %>
+</p>
+
+
+<%= link_to 'Edit', edit_job_type_path(@job_type) %> |
+<%= link_to 'Back', job_types_path %>
